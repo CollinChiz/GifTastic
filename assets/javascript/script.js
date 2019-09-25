@@ -26,10 +26,10 @@ $(document).on("click", ".button", function() {
       method: "GET"
   }).then(function (response){
       console.log(response);
-      for(i=0; i<response.data.length; i++) {
-          console.log(response.data[i]);
-          var gif = response.data[i].url
-            var image = $("<img/>").attr("src", gif)
+      for( var i=0; i<response.data.length; i++) {
+          console.log(response.data[i].bitly_gif_url);
+          var gif = response.data[i].bitly_gif_url
+            var image = $("<img>").attr("src", gif)
             $("#gifs").append(image)    
       }
   })
