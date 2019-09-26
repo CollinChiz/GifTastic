@@ -18,6 +18,7 @@ function displayButtons() {
 }
 // button click
 $(document).on("click", ".button", function() {
+    $("#gifs").empty();
   var value = $(this).attr("data-name");
   console.log(value)
   var queryURL = "https://api.giphy.com/v1/gifs/search?api_key=fR85SEr9y3LQVsH8pxtvo8PoeNQXrSLA&q=" + value + "&limit=10&offset=0&rating=PG&lang=en"

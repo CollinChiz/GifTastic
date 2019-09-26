@@ -9,6 +9,7 @@ img {
 #buttons {
     background-color: red;
     padding: 10px;
+    text-align: center;
 }
 #form-group {
     background-color: black;
@@ -25,4 +26,7 @@ button {
 }
 #add {
     margin-top: 10px;
+}
+#gifs {
+    text-align: center;
 }
