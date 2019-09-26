@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 
-var sports = ["football", "basketball", "baseball", "golf", "soccer", "rugby", "tennis", "volleyball", "track and field", "bowling"]
+var sports = ["football", "basketball", "baseball", "golf", "soccer", "rugby", "tennis", "volleyball"]
 
 function displayButtons() {
     $("#buttons").empty();
